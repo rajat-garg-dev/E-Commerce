@@ -2,6 +2,7 @@ import React from "react";
 import MainCarousel from "../../homecarasoule/Maincarasoule";
 import HomesectionCarasoule from "../../homesectioncarasoule/HomesectionCarasoule";
 import { kurtaPage1 } from "./data";
+import Footer from "../../footer/Footer";
 export default function HomePage() {
   return (
     <div>
@@ -13,6 +14,7 @@ export default function HomePage() {
         <HomesectionCarasoule data={kurtaPage1} heading={"Women's Kurta"} />
         <HomesectionCarasoule data={kurtaPage1} heading={"Women's Kurta"} />
       </div>
+      <Footer />
     </div>
   );
 }
